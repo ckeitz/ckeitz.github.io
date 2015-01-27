@@ -13,12 +13,13 @@
 
       <!-- Custom CSS -->
       <!-- <link rel="stylesheet" href="css/main.css" /> -->
-      <link rel="stylesheet" href="css/normalize.css" />
-      <link rel="stylesheet" href="css/foundation.css" />
-      <link rel="stylesheet" href="css/app.css" />
+      <link rel="stylesheet" href="/css/normalize.css" />
+      <link rel="stylesheet" href="/css/foundation.css" />
+      <link rel="stylesheet" href="/css/webicons.css" />
+      <link rel="stylesheet" href="/css/app.css" />
       <!-- endbuild -->
 
-      <script src="js/modernizr.js"></script>
+      <script src="/js/modernizr.js"></script>
   </head>
 
   <body>
@@ -46,7 +47,8 @@
           <!-- medium to large screen top bar -->
           <section class="top-bar-section show-for-medium-up">
             <ul class="left">
-              <li class="active"><a href="https://cjk.smugmug.com" target="_blank">photography</a></li>
+              <li class="divider"></li>
+              <li><a href="https://cjk.smugmug.com" target="_blank">photography</a></li>
               <li><a href="https://observationsat10.wordpress.com/" target="_blank">philosophy</a></li>
               <li class="has-dropdown">
                 <a href="#">code</a>
@@ -59,6 +61,7 @@
               <li><a href="https://www.linkedin.com/in/ckeitz" target="_blank">linkedin</a></li>
             </ul>
             <ul class="right">
+              <li class="divider"></li>              
               <li><a href="mailto:ckeitz@gmail.com">email me</a></li>
             </ul>
           </section>
@@ -68,18 +71,17 @@
       {{ content }}
 
       <!-- footer -->
-      <div class="footer panel">
+      <div class="panel footer">
         <div class="row">
           <div class="small-3 small-centered columns">
             <p>
               Cory Keitz<br />
-              <a href="mailto:ckeitz@gmail.com">ckeitz@gmail.com</a>
-            </p>
-          </div>
-          <div class="contact">
-            <p>
-              <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-              <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
+              <a href="mailto:ckeitz@gmail.com">ckeitz@gmail.com</a><br />
+              <a href="https://twitter.com/gitstoic" class="webicon twitter" target="_blank"></a>
+              <a href="https://github.com/ckeitz" class="webicon github" target="_blank"></a>
+              <a href="https://instagram.com/ridestoic" class="webicon instagram" target="_blank"></a>
+              <a href="www.quora.com/Cory-Keitz" class="webicon quora" target="_blank"></a>
+              <a href="https://www.linkedin.com/in/ckeitz" class="webicon linkedin" target="_blank"></a>
             </p>
           </div>
         </div>
@@ -87,11 +89,11 @@
     </div>
 
     <!-- build:js(app) /js/scripts.js -->
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
     <!-- endbuild -->
 
-    <script src="js/jquery.js"></script>
-    <script src="js/foundation.js"></script>
-    <script src="js/app.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/foundation.js"></script>
+    <script src="/js/app.js"></script>
   </body>
 </html>
